@@ -123,6 +123,7 @@ figure img{
 header{
     padding: 10px 0;
     position: fixed;
+    height: 80px;
     top: 0;
     left: 0;
     z-index: 99;
@@ -539,3 +540,216 @@ footer p i{
     background: #212121;
     width: 80px;
 }
+
+.burger{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10;
+    right: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 10px;
+    display: none;
+}
+
+.for-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 823px){
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+
+    .burger{
+        display: block;
+    }
+    header{
+        background: #212121;
+    }
+    .menu{
+        position: fixed;
+        top: 80px;
+        right: -240px;
+        background: #121212;
+        height: calc(100vh - 80px);
+        overflow-y: auto;
+        width: 240px;
+        transition: all ease-out 0.3s;
+        -webkit-transition: all ease-out 0.3s;
+        -moz-transition: all ease-out 0.3s;
+        -ms-transition: all ease-out 0.3s;
+        -o-transition: all ease-out 0.3s;
+}
+    .menu.show{
+        right: 0;
+    }
+    .menu a{
+        width: 100%;
+        padding-right: 30px;
+    }
+    .menu a.btn{
+        width: 80%;
+        margin-left: 0;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    #home{
+        padding-top: 80px;
+    }
+    #home .item{
+        padding-top: 135%;
+    }
+    #home .text{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+    #home .item .container{
+        width: 100%;
+        left: 0;
+        padding: 0 20px;
+    }
+    #home .text h1{
+        font-size: 36px;
+    }
+    #home .text .subtitle{
+        font-size: 14px;
+    }
+    #home .text p{
+        font-size: 14px;
+    }
+    #home .text .btn-groups .btn{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .hero .owl-prev,
+    .hero .owl-next{
+        bottom: 20px;
+    }
+    .hero .owl-prev{
+        left: 20px;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    .hero .owl-next{
+        right: 20px;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+    .hero .owl-pagination{
+        bottom: 30px;
+    }
+    .hero .owl-pagination .owl-page span{
+        background: rgba(255,255,255,0.3);
+    }
+    .hero .owl-pagination .owl-page.active span{
+        background: #fff;
+    }
+
+    .section-title{
+        margin-bottom: 20px;
+    }
+    .section-title h3{
+        font-size: 24px;
+    }
+    .product-card .text h4{
+        font-size: 14px;
+    }
+    .product-card .text .price{
+        font-size: 14px;
+    }
+    .product-card .text .price span{
+        font-size: 12px;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    #fitur{
+        padding-top: 80px;
+        background-size: contain;
+    }
+    .fitur-card{
+        margin-bottom: 20px;
+    }
+    .fitur-card h4{
+        font-size: 16px;
+        padding: 60px 20px 20px;
+    }
+    #cta .container{
+        padding: 40px;
+        background-size: cover;
+        text-align: center;
+    }
+    #cta h3{
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #cta .btn.float-right{
+        float: none !important;
+        display: inline-block;
+    }
+    .testimonial-slider::before{
+        width: 40px;
+        height: 30px;
+        background-size: contain;
+        top: -15px;
+        right: 20px;
+    }
+    .prof-card{
+        padding: 40px 20px;
+    }
+    .prof-card .text{
+        width: 100%;
+        padding-left: 0;
+    }
+    .prof-card .pic{
+        width: 80px;
+    }
+    .prof-card .text h4{
+        font-size: 18px;
+    }
+    .prof-card .text span{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .prof-card .text p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .testimonial-slider .owl-prev,
+    .testimonial-slider .owl-next{
+        display: none;
+    }
+    .social-bt{
+        margin-bottom: 30px;
+    }
+    .social-bt a{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
