@@ -558,6 +558,10 @@ footer p i{
     display: none;
 }
 
+#loom-companion-mv3{
+    display: none !important;
+}
+
 @media only screen and (max-width: 823px){
 
     .for-desktop{
