@@ -565,6 +565,33 @@ footer p i{
     display: none !important;
 }
 
+.wa-button{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 32px;
+    color: #fff;
+    padding-top: 3px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background: #3df963;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease-out 0.3s;
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -ms-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+}
+.wa-button:hover{
+    background: #0ad630;
+    color: #fff;
+}
+
 @media only screen and (max-width: 823px){
 
     .for-desktop{
