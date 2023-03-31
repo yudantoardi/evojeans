@@ -353,6 +353,9 @@ header.scrolled{
     width: 184px;
     float: left;
 }
+.prof-card .pic figure{
+    margin-bottom: 0;
+}
 .prof-card .text{
     width: calc(100% - 184px);
     float: left;
@@ -727,6 +730,7 @@ footer p i{
     }
     .prof-card .pic{
         width: 80px;
+        margin-bottom: 20px;
     }
     .prof-card .text h4{
         font-size: 18px;
