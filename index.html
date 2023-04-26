@@ -420,6 +420,10 @@
                 }
             });
 
+            $(".burger").click(function(){
+                $(".menu").toggleClass("show");
+            });
+
             function scrollToSection(event) {
                 event.preventDefault();
                 var $section = $($(this).attr('href')); 
